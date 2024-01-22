@@ -1,0 +1,19 @@
+{
+  "name": "redirect-backend",
+  "version": "0.0.1",
+  "description": "Backend for the redirect app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hennnnes/redirect.git"
+  },
+  "author": "github.com/hennnnes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hennnnes/redirect/issues"
+  },
+  "homepage": "https://github.com/Hennnnes/redirect#readme"
+}
