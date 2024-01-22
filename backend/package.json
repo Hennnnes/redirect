@@ -3,8 +3,11 @@
   "version": "0.0.1",
   "description": "Backend for the redirect app",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js",
+    "lint": "npx prettier . --write"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/Hennnnes/redirect/issues"
   },
-  "homepage": "https://github.com/Hennnnes/redirect#readme"
+  "homepage": "https://github.com/Hennnnes/redirect#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "prettier": "3.2.4"
+  }
 }
